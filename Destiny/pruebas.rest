@@ -1,0 +1,35 @@
+### Guardar GTA San Andreas
+POST http://localhost:3000/api/juegos
+Content-Type: application/json
+
+{
+    "titulo": "GTA San Andreas",
+    "plataforma": "PS2",
+    "precio": 50000,
+    "anio": 2004,
+    "disponible": true
+}
+
+### Guardar Devil May Cry 3
+POST http://localhost:3000/api/juegos
+Content-Type: application/json
+
+{
+    "titulo": "Devil May Cry 3",
+    "plataforma": "PS2",
+    "precio": 45000,
+    "anio": 2005,
+    "disponible": true
+}
+
+### Guardar Need for Speed Underground
+POST http://localhost:3000/api/juegos
+Content-Type: application/json
+
+{
+    "titulo": "Need for Speed Underground",
+    "plataforma": "PS2",
+    "precio": 35000,
+    "anio": 2003,
+    "disponible": true
+}
